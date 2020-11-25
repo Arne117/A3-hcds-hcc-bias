@@ -9,18 +9,24 @@
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
 _In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
+---
+Introducing a semi or fully automated systems for decision making that should produce a more objective and unbiased outcomes than humans, is largely dependant on the data that is used. When using sensitive attributes that reflect social preexisting inequalities, the decision making algorithm might just reproduce structural discrimination such as classism or racism, which shouldn't be justified as a resembling of “harsh reality”.
+Also, choosing strict thresholds in classifiers where a single percentage score can possibly change the outcome of someones life should not be take easily.
+Additionally, a score generated from a dataset with a social bias does not consider personal aspects, such as motivation and soft skills.
+
+
+
 
 ### ❓&nbsp; Questions
 _Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
 
-1. ...
-1. ...
+1. Was there someone in the AMS project who had doubts from a ethical standpoint about the data that they used?
 
 ***
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [Here](https://github.com/Arne117/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
