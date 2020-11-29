@@ -30,12 +30,18 @@ _Using full sentences, list at least one question that this video raised in your
 
 ### Reflections and implications
 
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
+In the third analysis step about the top 10 countries by relative quality, you could see countries with authoritarian leadership leading by quality content, which I assume is due their control of the country’s internet access. Some countries such as Uzbekistan, Saudi Arabia and North Korea completely blocked access for the population. Others might just try to control the quality of the article by suppressing criticism and other opinions that are contradicting to the government opinion. The bottom 10 countries by relative quality were small or emerging countries, where there was no quality article at all.
 
-_Your 350 words_
 
-1. _Your question 1?_
-1. _Your question 2?_
+The top 10 countries by coverage where those with a correlating positive Press Freedom Index or just small countries with a low population, but with a high article count. Some of the bottom 10 countries might also have a correlation with the Press Freedom Index. For example, Djibouti has a score of 76.73 in 2020, which is just above China (78.48). A higher score means a lower degree of freedom for journalists.
+
+
+What I have learned during this exercise was to use the pandas groupby and aggregate function. Chunking the API requests took a bit of time but was fairly easy in the end. I thought I also had to deal with asynchronous API calls, but I was relieved to see that the request library operates by default synchronous. I also wanted to implement the maximal allowed 4 parallel requests to the API, to speed up the process, but I didn’t find the time to do it. Plotting the results in for example a bar chart would have also been a nice addition but the exercise was time consuming enough by itself.
+
+
+Question 1: This question just came up and probably can be solved with a quick google search but, what qualified an article to be categorized into the six classes. 
+Question 2:
+
 
 ### Questions
 

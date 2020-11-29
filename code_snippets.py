@@ -25,3 +25,6 @@ df.apply(lambda addr: f"{get_city(addr)} xy")
 
 # plot labeling
 plt.xticks(df['x'].unique(), rotation='vertical', size=8)
+
+# Pandas merge
+# https://stackoverflow.com/questions/53645882/pandas-merging-101
